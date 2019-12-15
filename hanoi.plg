@@ -1,0 +1,64 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 201008202106谢明哲 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/201008202106谢明哲.res" /d "_DEBUG" /d "_AFXDLL" "C:\Users\Administrator\Desktop\VC++大作业+实验\VC大作业\201008202106谢明哲\201008202106谢明哲\201008202106谢明哲.rc"" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP73BE.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/201008202106谢明哲.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\Administrator\Desktop\VC++大作业+实验\VC大作业\201008202106谢明哲\201008202106谢明哲\201008202106谢明哲.cpp"
+"C:\Users\Administrator\Desktop\VC++大作业+实验\VC大作业\201008202106谢明哲\201008202106谢明哲\201008202106谢明哲Doc.cpp"
+"C:\Users\Administrator\Desktop\VC++大作业+实验\VC大作业\201008202106谢明哲\201008202106谢明哲\201008202106谢明哲View.cpp"
+"C:\Users\Administrator\Desktop\VC++大作业+实验\VC大作业\201008202106谢明哲\201008202106谢明哲\Choose.cpp"
+"C:\Users\Administrator\Desktop\VC++大作业+实验\VC大作业\201008202106谢明哲\201008202106谢明哲\Login.cpp"
+"C:\Users\Administrator\Desktop\VC++大作业+实验\VC大作业\201008202106谢明哲\201008202106谢明哲\MainFrm.cpp"
+"C:\Users\Administrator\Desktop\VC++大作业+实验\VC大作业\201008202106谢明哲\201008202106谢明哲\TalkDialog.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP73BE.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP73BF.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/201008202106谢明哲.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\Administrator\Desktop\VC++大作业+实验\VC大作业\201008202106谢明哲\201008202106谢明哲\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP73BF.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP73C0.tmp" with contents
+[
+ws2_32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/201008202106谢明哲.pdb" /debug /machine:I386 /out:"Debug/201008202106谢明哲.exe" /pdbtype:sept 
+".\Debug\201008202106谢明哲.obj"
+".\Debug\201008202106谢明哲Doc.obj"
+".\Debug\201008202106谢明哲View.obj"
+".\Debug\Choose.obj"
+".\Debug\Login.obj"
+".\Debug\MainFrm.obj"
+".\Debug\StdAfx.obj"
+".\Debug\TalkDialog.obj"
+".\Debug\201008202106谢明哲.res"
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP73C0.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+c:\users\administrator\desktop\vc++大作业+实验\vc大作业\201008202106谢明哲\201008202106谢明哲\debug\msado15.tlh(407) : warning C4146: unary minus operator applied to unsigned type, result still unsigned
+Compiling...
+201008202106谢明哲.cpp
+201008202106谢明哲Doc.cpp
+201008202106谢明哲View.cpp
+Choose.cpp
+Login.cpp
+MainFrm.cpp
+TalkDialog.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+201008202106谢明哲.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,591 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+// Generated Help ID header file
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "resource.hm"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\201008202106谢明哲.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#include ""l.chs\\afxprint.rc""        // printing/print preview resources\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\Title.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP  MOVEABLE PURE   "res\\Toolbar.bmp"
+IDB_LOGIN               BITMAP  DISCARDABLE     "res\\Login.bmp"
+IDB_RECTBG1             BITMAP  DISCARDABLE     "res\\QQ截图20130523165259.bmp"
+IDB_RECTBG2             BITMAP  DISCARDABLE     "res\\RectBg1.bmp"
+IDB_BG1                 BITMAP  DISCARDABLE     "res\\BG1.bmp"
+IDB_BG2                 BITMAP  DISCARDABLE     "res\\BG2.bmp"
+IDB_BG3                 BITMAP  DISCARDABLE     "res\\BG3.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR DISCARDABLE  30, 19
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+    SEPARATOR
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_FILE_PRINT
+    SEPARATOR
+    BUTTON      ID_APP_ABOUT
+    BUTTON      ID_LOGIN
+    SEPARATOR
+    BUTTON      IDC_SOLVE
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "文件(&F)"
+    BEGIN
+        MENUITEM "新建(&N)\tCtrl+N",            ID_FILE_NEW
+        MENUITEM "打开(&O)...\tCtrl+O",         ID_FILE_OPEN
+        MENUITEM "保存(&S)\tCtrl+S",            ID_FILE_SAVE
+        MENUITEM "另存为(&A)...",               ID_FILE_SAVE_AS
+        MENUITEM SEPARATOR
+        MENUITEM "打印(&P)...\tCtrl+P",         ID_FILE_PRINT
+        MENUITEM "打印预览(&V)",                ID_FILE_PRINT_PREVIEW
+        MENUITEM "打印设置(&R)...",             ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "最近文件",                    ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "退出(&X)",                    ID_APP_EXIT
+    END
+    POPUP "编辑(&E)"
+    BEGIN
+        MENUITEM "撤消(&U)\tCtrl+Z",            ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "剪切(&T)\tCtrl+X",            ID_EDIT_CUT
+        MENUITEM "复制(&C)\tCtrl+C",            ID_EDIT_COPY
+        MENUITEM "粘贴(&P)\tCtrl+V",            ID_EDIT_PASTE
+    END
+    POPUP "Talk"
+    BEGIN
+        MENUITEM "Login(&T)\tCtrl+T",           ID_LOGIN
+    END
+    POPUP "查看(&V)"
+    BEGIN
+        MENUITEM "工具栏(&T)",                  ID_VIEW_TOOLBAR
+        MENUITEM "状态栏(&S)",                  ID_VIEW_STATUS_BAR
+        MENUITEM "分隔(&P)",                    ID_WINDOW_SPLIT
+        MENUITEM SEPARATOR
+        MENUITEM "查看解法(&L)\tCtrl+L",        IDC_SOLVE
+        MENUITEM "结束演示(&E)\tCtrl+E",        IDC_END
+    END
+    POPUP "声音(&M)"
+    BEGIN
+        MENUITEM "背景音乐(&M)\tCtrl+M",        ID_BGSOUND
+    END
+    POPUP "帮助(&H)"
+    BEGIN
+        MENUITEM "关于 Hanoi(&A)...",           ID_APP_ABOUT
+    END
+END
+
+IDR_POPUP MENU DISCARDABLE 
+BEGIN
+    POPUP "Talk"
+    BEGIN
+        MENUITEM "Login(&T)\tCtrl+L",           ID_LOGIN
+    END
+    POPUP "查看(&V)"
+    BEGIN
+        MENUITEM "工具栏(&T)",                  ID_VIEW_TOOLBAR
+        MENUITEM "状态栏(&S)",                  ID_VIEW_STATUS_BAR
+        MENUITEM "分隔(&P)",                    ID_WINDOW_SPLIT
+        MENUITEM SEPARATOR
+        MENUITEM "查看解法(&L)\tCtrl+L",        IDC_SOLVE
+    END
+    POPUP "声音"
+    BEGIN
+        MENUITEM "背景音乐",                    ID_BGSOUND
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS PRELOAD MOVEABLE PURE 
+BEGIN
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    "L",            IDC_SOLVE,              VIRTKEY, CONTROL, NOINVERT
+    "M",            ID_BGSOUND,             VIRTKEY, CONTROL, NOINVERT
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL, NOINVERT
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL, NOINVERT
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL, NOINVERT
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL, NOINVERT
+    "T",            ID_LOGIN,               VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 123
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 谢明哲2106"
+FONT 9, "宋体"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "汉诺塔小游戏 3.0 版",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "版权所有  谢明哲(C) 2013\n\nHanio 3.0\n\n1.修正在“程序展示”时盘子意外  消失的BUG\n\n2.实现了自动移动，目前完美版！",
+                    IDC_STATIC,36,26,125,77,SS_SUNKEN
+    DEFPUSHBUTTON   "确定",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_CHOOSE DIALOGEX 0, 0, 117, 258
+STYLE WS_CHILD
+FONT 11, "宋体", 0, 0, 0x1
+BEGIN
+    LTEXT           "步数统计：",IDC_STATIC,16,20,38,8
+    EDITTEXT        IDC_COUNT,61,17,37,14,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "盘子个数：",IDC_STATIC,16,49,41,8
+    COMBOBOX        IDC_DISKNUM,61,47,40,36,CBS_SIMPLE | CBS_AUTOHSCROLL | 
+                    WS_VSCROLL | WS_TABSTOP,0,HIDC_DISKNUM
+    GROUPBOX        "背景样式",IDC_STATIC,15,85,94,86
+    CONTROL         "背景样式1",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON | 
+                    BS_FLAT | WS_GROUP,21,101,50,10
+    CONTROL         "背景样式2",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON | 
+                    BS_FLAT,21,120,50,10
+    CONTROL         "背景样式3",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON | 
+                    BS_FLAT,21,141,50,10
+    PUSHBUTTON      "查看",IDC_SOLVE,52,185,23,17,BS_CENTER | BS_VCENTER | 
+                    BS_FLAT
+    GROUPBOX        "查看解法",IDC_STATIC,14,176,95,67
+    LTEXT           "步法显示:",IDC_STATIC,21,204,40,11
+    EDITTEXT        IDC_ShowStep,20,220,74,15,ES_AUTOHSCROLL | ES_READONLY
+    PUSHBUTTON      "结束",IDC_END,80,185,23,17,BS_CENTER | BS_VCENTER | 
+                    BS_FLAT,WS_EX_STATICEDGE
+END
+
+IDD_LOGINICO DIALOG DISCARDABLE  0, 0, 190, 138
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "登录界面"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "登 录",IDOK,86,88,34,14
+    PUSHBUTTON      "取消",IDCANCEL,136,87,33,14
+    LTEXT           "账 号 :",IDC_STATIC,74,19,24,11
+    LTEXT           "密 码 :",IDC_STATIC,74,50,24,11
+    EDITTEXT        IDC_NAME,106,17,62,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_PASS,106,46,62,14,ES_PASSWORD | ES_AUTOHSCROLL
+    CONTROL         135,IDC_PICTURE,"Static",SS_BITMAP,17,19,53,72
+END
+
+IDD_TALK DIALOG DISCARDABLE  0, 0, 272, 236
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "聊天对话框"
+FONT 12, "华文中宋"
+BEGIN
+    DEFPUSHBUTTON   "发 送",ID_SEND,236,196,23,19
+    PUSHBUTTON      "退 出",IDCANCEL,170,38,25,14
+    LTEXT           "目标IP :",IDC_STATIC,12,15,25,10
+    LTEXT           "发送端口 :",IDC_STATIC,86,15,31,10
+    LTEXT           "接收端口 :",IDC_STATIC,162,16,32,10
+    EDITTEXT        IDC_ADDR,39,13,41,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_PORT1,119,14,37,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_PORT2,195,15,37,13,ES_AUTOHSCROLL
+    GROUPBOX        "信息显示：",IDC_STATIC,16,53,216,120
+    EDITTEXT        IDC_SHOWTEXT,22,67,205,99,ES_MULTILINE | ES_AUTOHSCROLL | 
+                    ES_READONLY | WS_VSCROLL | WS_HSCROLL
+    GROUPBOX        "发送信息：",IDC_STATIC,15,181,216,43
+    EDITTEXT        IDC_SENDTEXT,20,192,204,25,ES_MULTILINE | ES_AUTOHSCROLL | 
+                    WS_VSCROLL
+    PUSHBUTTON      "绑 定",IDC_CONNECT,78,37,27,14
+    PUSHBUTTON      "断 开",IDC_BREAK,124,37,27,14
+    PUSHBUTTON      "FontColor",IDC_SETFONT,68,175,33,9
+    PUSHBUTTON      "BgColor",IDC_SETCOLOR,105,175,29,9
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "201008202106谢明哲 Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "201008202106谢明哲\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2013\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "201008202106谢明哲.EXE\0"
+            VALUE "ProductName", "201008202106谢明哲 应用程序\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 116
+    END
+
+    IDD_CHOOSE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 113
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 251
+    END
+
+    IDD_LOGINICO, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 183
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 131
+    END
+
+    IDD_TALK, DIALOG
+    BEGIN
+        LEFTMARGIN, 6
+        RIGHTMARGIN, 270
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 233
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_POINTER             CURSOR  DISCARDABLE     "arrow.cur"
+IDC_MOVE                CURSOR  DISCARDABLE     "res\\link.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_CHOOSE DLGINIT
+BEGIN
+    IDC_DISKNUM, 0x403, 2, 0
+0x0033, 
+    IDC_DISKNUM, 0x403, 2, 0
+0x0034, 
+    IDC_DISKNUM, 0x403, 2, 0
+0x0035, 
+    IDC_DISKNUM, 0x403, 2, 0
+0x0036, 
+    IDC_DISKNUM, 0x403, 2, 0
+0x0037, 
+    IDC_DISKNUM, 0x403, 2, 0
+0x0038, 
+    IDC_DISKNUM, 0x403, 2, 0
+0x0039, 
+    IDC_DISKNUM, 0x403, 3, 0
+0x3031, "\000" 
+    IDC_DISKNUM, 0x403, 3, 0
+0x3131, "\000" 
+    IDC_DISKNUM, 0x403, 3, 0
+0x3231, "\000" 
+    IDC_DISKNUM, 0x403, 3, 0
+0x3331, "\000" 
+    IDC_DISKNUM, 0x403, 3, 0
+0x3431, "\000" 
+    IDC_DISKNUM, 0x403, 3, 0
+0x3531, "\000" 
+    IDC_DISKNUM, 0x403, 3, 0
+0x3631, "\000" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDP_SOCKETS_INIT_FAILED "Windows 通信端口初始化失败。"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "201008202106谢明哲\n\nMy2010\nMy2010 文件 (*.xmz)\n.xmz\nMy201008202106.Document\nMy2010 Document"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "201008202106谢明哲"
+    AFX_IDS_IDLEMESSAGE     "就绪"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_EXT        "扩展名"
+    ID_INDICATOR_CAPS       "大写"
+    ID_INDICATOR_NUM        "数字"
+    ID_INDICATOR_SCRL       "滚动"
+    ID_INDICATOR_OVR        "改写"
+    ID_INDICATOR_REC        "记录"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_NEW             "建立新文档\n新建"
+    ID_FILE_OPEN            "打开一个现有文档\n打开"
+    ID_FILE_CLOSE           "关闭活动文档\n关闭"
+    ID_FILE_SAVE            "保存活动文档\n保存"
+    ID_FILE_SAVE_AS         "将活动文档以一个新文件名保存\n另存为"
+    ID_FILE_PAGE_SETUP      "改变打印选项\n页面设置"
+    ID_FILE_PRINT_SETUP     "改变打印机及打印选项\n打印设置"
+    ID_FILE_PRINT           "打印活动文档\n打印"
+    ID_FILE_PRINT_PREVIEW   "显示整页\n打印预览"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "显示程序信息，版本号和版权\n关于"
+    ID_APP_EXIT             "退出应用程序；提示保存文档\n退出"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "打开该文档"
+    ID_FILE_MRU_FILE2       "打开该文档"
+    ID_FILE_MRU_FILE3       "打开该文档"
+    ID_FILE_MRU_FILE4       "打开该文档"
+    ID_FILE_MRU_FILE5       "打开该文档"
+    ID_FILE_MRU_FILE6       "打开该文档"
+    ID_FILE_MRU_FILE7       "打开该文档"
+    ID_FILE_MRU_FILE8       "打开该文档"
+    ID_FILE_MRU_FILE9       "打开该文档"
+    ID_FILE_MRU_FILE10      "打开该文档"
+    ID_FILE_MRU_FILE11      "打开该文档"
+    ID_FILE_MRU_FILE12      "打开该文档"
+    ID_FILE_MRU_FILE13      "打开该文档"
+    ID_FILE_MRU_FILE14      "打开该文档"
+    ID_FILE_MRU_FILE15      "打开该文档"
+    ID_FILE_MRU_FILE16      "打开该文档"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_NEXT_PANE            "切换到下一个窗格\n下一窗格"
+    ID_PREV_PANE            "切换回前一个窗格\n前一窗格"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_WINDOW_SPLIT         "将活动的窗口分隔成窗格\n分隔"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_CLEAR           "删除被选对象\n删除"
+    ID_EDIT_CLEAR_ALL       "全部删除\n全部删除"
+    ID_EDIT_COPY            "复制被选对象并将其置于剪贴板上\n复制"
+    ID_EDIT_CUT             "剪切被选对象并将其置于剪贴板上\n剪切"
+    ID_EDIT_FIND            "查找指定的正文\n查找"
+    ID_EDIT_PASTE           "插入剪贴板内容\n粘贴"
+    ID_EDIT_REPEAT          "重复上一步操作\n重复"
+    ID_EDIT_REPLACE         "用不同的正文替换指定的正文\n替换"
+    ID_EDIT_SELECT_ALL      "选择整个文档\n选择全部"
+    ID_EDIT_UNDO            "撤消最后一步操作\n撤消"
+    ID_EDIT_REDO            "重新执行先前已撤消的操作\n重新执行"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "显示或隐藏工具栏\n显隐工具栏"
+    ID_VIEW_STATUS_BAR      "显示或隐藏状态栏\n显隐状态栏"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "改变窗口大小"
+    AFX_IDS_SCMOVE          "改变窗口位置"
+    AFX_IDS_SCMINIMIZE      "将窗口缩小成图标"
+    AFX_IDS_SCMAXIMIZE      "把窗口放大到最大尺寸"
+    AFX_IDS_SCNEXTWINDOW    "切换到下一个文档窗口"
+    AFX_IDS_SCPREVWINDOW    "切换到先前的文档窗口"
+    AFX_IDS_SCCLOSE         "关闭活动的窗口并提示保存所有文档"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "把窗口恢复到正常大小"
+    AFX_IDS_SCTASKLIST      "激活任务表"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_PREVIEW_CLOSE   "关闭打印预览模式\n取消预阅"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_LOGIN                "登录聊天工具"
+    ID_BGSOUND              "打开或者关闭背景音乐"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDC_SOLVE               "求解汉诺塔."
+    IDC_END                 "结束自动演示."
+END
+
+#endif    // Chinese (中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\201008202106谢明哲.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#include "l.chs\afxprint.rc"        // printing/print preview resources
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
